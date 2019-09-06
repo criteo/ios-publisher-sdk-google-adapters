@@ -1,20 +1,12 @@
 # ios-sdk-google-mediation-adapter
 
-This repository contains adapters for Google mediation. 
+This repository contains adapters for integrating the Criteo Publisher SDK with your Admob mediation solution
 
 Refer [integration document](https://publisherdocs.criteotilt.com/sdk-ios/3.1/admob-mediation/) on how to setUp Custom Events and integrate Admob for Mediation.
 
-Criteo Direct Bidder can be integrated via the __CriteoPublisherSdk__ framework using the below options.
+Criteo Direct Bidder can be integrated via the __CriteoPublisherSdk__ framework using Manual installation.
 
 __Note__: CriteoPublisherSdk framework does not include adapters. The adapter source code will have to be manually copied from this repository and added to your project sources.
-
-## CocoaPods Installation
-
-You can install __CriteoPublisherSdk__ by declaring the pod ```criteopublishersdk``` in your _podfile_ as below
-
-```
-pod 'criteopublishersdk'
-```
 
 ## Manual Installation
 
